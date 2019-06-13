@@ -20,7 +20,7 @@
 
 title:            'Mapping a New World'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'reuve021.github.io'
+url:              'https://reuve021.github.io'
 baseurl:          '/ne_maps'
 copyright:        'Example copyright org, 2019'
 logo:             '/assets/logo.png'
