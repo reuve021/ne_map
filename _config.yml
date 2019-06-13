@@ -20,8 +20,8 @@
 
 title:            'Mapping a New World'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
+url:              'reuve021.github.io'
+baseurl:          '/ne_maps'
 copyright:        'Example copyright org, 2019'
 logo:             '/assets/logo.png'
 
