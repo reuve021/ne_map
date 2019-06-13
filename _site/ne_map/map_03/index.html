@@ -6,20 +6,20 @@
     Mapping a New World | Le Canada, ou Nouvelle France, la Floride, la Virginie, Pensilvanie, Caroline, Nouvelle Angleterre et Nouvelle Yorck, l'Isle de Terre Neuve, la Louisiane et le Cours de la Riviere de Misisipi
   </title>
 
-  <link rel='canonical' href='http://localhost:4000/wax/ne_map/map_03/'/>
-  <link rel='icon' type='image/png' href="http://localhost:4000/wax/img/logo.png">
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
+  <link rel='canonical' href='http://localhost:4000/ne_maps/ne_map/map_03/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/ne_maps/img/logo.png">
+  <link rel='stylesheet' href="http://localhost:4000/ne_maps/assets/styles.css"/>
 
-  <script type='text/javascript' src="http://localhost:4000/wax/assets/jquery-3.2.1.min.js"></script>
+  <script type='text/javascript' src="http://localhost:4000/ne_maps/assets/jquery-3.2.1.min.js"></script>
   <noscript>Please enable JavaScript in your browser.</noscript>
 </head>
 
 
   <body>
-    <time datetime='2019-06-13 15:58'></time>
+    <time datetime='2019-06-13 16:10'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
-    <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
+    <a class='navbar-brand' href="http://localhost:4000/ne_maps/" title='Home'>
       Mapping a New World
     </a>
 
@@ -32,13 +32,13 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/collection/'>Explore</a>
+              <a class='nav-link' href='http://localhost:4000/ne_maps/collection/'>Explore</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/about/'>About</a>
+              <a class='nav-link' href='http://localhost:4000/ne_maps/about/'>About</a>
             </li>
           
         
@@ -63,11 +63,11 @@
     <span class='pagination-link' id='prevlink'></span>
     
       <div id="osd" class="image-viewer"></div>
-<script async defer src="http://localhost:4000/wax/assets/openseadragon/openseadragon.min.js"></script>
+<script async defer src="http://localhost:4000/ne_maps/assets/openseadragon/openseadragon.min.js"></script>
 
 <script>
   $(document).ready(function () {
-    var manifestUrl = "http://localhost:4000/wax/img/derivatives/iiif/map_03/manifest.json";
+    var manifestUrl = "http://localhost:4000/ne_maps/img/derivatives/iiif/map_03/manifest.json";
     $.getJSON(manifestUrl, function(data) {
       var tileSources = [];
       $.each(data.sequences[0].canvases, function(k, val) {
@@ -76,7 +76,7 @@
       OpenSeadragon({
         id: "osd",
         sequenceMode: true,
-        prefixUrl: "http://localhost:4000/wax/assets/openseadragon/images/",
+        prefixUrl: "http://localhost:4000/ne_maps/assets/openseadragon/images/",
         tileSources: tileSources,
         homeFillsViewer: false,
         showReferenceStrip: true
@@ -93,8 +93,8 @@
 
 
   <script type='text/javascript'>
-    $('#prevlink').append(`<a href='http://localhost:4000/wax/ne_map/map_05/' display='none'>&#8249;</a>`);
-    $('#nextlink').append(`<a href='http://localhost:4000/wax/ne_map/map_07/' display='none'>&#8250;</a>`);
+    $('#prevlink').append(`<a href='http://localhost:4000/ne_maps/ne_map/map_05/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='http://localhost:4000/ne_maps/ne_map/map_07/' display='none'>&#8250;</a>`);
   </script>
 
 
@@ -157,7 +157,7 @@
             </a>
            / 
           
-            <a href='http://localhost:4000/wax/credits'>
+            <a href='http://localhost:4000/ne_maps/credits'>
               Credits
             </a>
            / 
@@ -171,8 +171,8 @@
         <p class='footer-logos'>
           
           
-          <a href="http://localhost:4000/wax/" aria-label="Logo link to resource">
-            <img src='http://localhost:4000/wax/img/logo.png' alt="logo"/>
+          <a href="http://localhost:4000/ne_maps/" aria-label="Logo link to resource">
+            <img src='http://localhost:4000/ne_maps/img/logo.png' alt="logo"/>
           </a>
           
         </p>
@@ -183,6 +183,6 @@
 
   </body>
 
-  <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/bootstrap/bootstrap.min.js'></script>
-  <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/popper.min.js'></script>
+  <script type='text/javascript' async defer src='http://localhost:4000/ne_maps/assets/bootstrap/bootstrap.min.js'></script>
+  <script type='text/javascript' async defer src='http://localhost:4000/ne_maps/assets/popper.min.js'></script>
 </html>

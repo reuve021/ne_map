@@ -1,28 +1,28 @@
 {
   "@type": "sc:Canvas",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/map_07.json",
+  "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/canvas/map_07.json",
   "label": "front",
   "width": 1639,
   "height": 1400,
-  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/map_07/full/250,/0/default.jpg",
+  "thumbnail": "http://localhost:4000/ne_maps/img/derivatives/iiif/images/map_07/full/250,/0/default.jpg",
   "images": [
     {
       "@type": "oa:Annotation",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/map_07.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/annotation/map_07.json",
       "motivation": "sc:painting",
       "resource": {
-        "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/map_07/full/full/0/default.jpg",
+        "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/images/map_07/full/full/0/default.jpg",
         "@type": "dcterms:Image",
         "format": "image/jpeg",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/map_07",
+          "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/images/map_07",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
         "width": 1639,
         "height": 1400
       },
-      "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/map_07.json"
+      "on": "http://localhost:4000/ne_maps/img/derivatives/iiif/canvas/map_07.json"
     }
   ],
   "@context": "http://iiif.io/api/presentation/2/context.json"

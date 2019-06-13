@@ -1,31 +1,31 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/collection/ne_map.json",
+  "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/collection/ne_map.json",
   "@type": "sc:Collection",
   "label": "ne_map",
   "manifests": [
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_05/manifest.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/map_05/manifest.json",
       "@type": "sc:Manifest",
       "label": "map_05"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_07/manifest.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/map_07/manifest.json",
       "@type": "sc:Manifest",
       "label": "map_07"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_01/manifest.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/map_01/manifest.json",
       "@type": "sc:Manifest",
       "label": "map_01"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_03/manifest.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/map_03/manifest.json",
       "@type": "sc:Manifest",
       "label": "map_03"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_06/manifest.json",
+      "@id": "http://localhost:4000/ne_maps/img/derivatives/iiif/map_06/manifest.json",
       "@type": "sc:Manifest",
       "label": "map_06"
     }
